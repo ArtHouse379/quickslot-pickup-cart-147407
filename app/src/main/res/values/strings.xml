@@ -2,116 +2,121 @@
     <string name="app_name">Quickslot Pickup Cart</string>
 
     <!-- shared -->
-    <string name="price">£%1$.2f</string>
-    <string name="price_total">Total: £%1$.2f</string>
-    <string name="back_icon_description">Back</string>
-    <string name="clear_cart_icon_description">Clear cart</string>
+    <string name="price">%1$.2f GBP</string>
+    <string name="price_total">Sum: £%1$.2f</string>
+    <string name="back_icon_description">Go back</string>
+    <string name="clear_cart_icon_description">Empty basket</string>
 
     <!-- top bar titles -->
-    <string name="smfs_top_bar_home_title">Home</string>
-    <string name="smfs_top_bar_cart_title">Cart</string>
-    <string name="smfs_top_bar_checkout_title">Checkout</string>
-    <string name="smfs_top_bar_orders_title">Orders</string>
-    <string name="smfs_top_bar_settings_title">Settings</string>
-    <string name="smfs_top_bar_product_details_title">Details</string>
-    <string name="smfs_top_bar_tagline">The best choice</string>
+    <string name="smfs_top_bar_home_title">Shop</string>
+    <string name="smfs_top_bar_cart_title">Basket</string>
+    <string name="smfs_top_bar_checkout_title">Payment</string>
+    <string name="smfs_top_bar_orders_title">Purchases</string>
+    <string name="smfs_top_bar_settings_title">Preferences</string>
+    <string name="smfs_top_bar_product_details_title">Item Info</string>
+    <string name="smfs_top_bar_tagline">Snacks on demand</string>
 
     <!-- bottom bar navigation item titles -->
-    <string name="smfs_bottom_bar_nav_item_home_title">Home</string>
-    <string name="smfs_bottom_bar_nav_item_cart_title">Cart</string>
-    <string name="smfs_bottom_bar_nav_item_orders_title">Orders</string>
-    <string name="smfs_bottom_bar_nav_item_settings_title">Settings</string>
+    <string name="smfs_bottom_bar_nav_item_home_title">Shop</string>
+    <string name="smfs_bottom_bar_nav_item_cart_title">Basket</string>
+    <string name="smfs_bottom_bar_nav_item_orders_title">Purchases</string>
+    <string name="smfs_bottom_bar_nav_item_settings_title">Options</string>
 
     <!-- splash screen -->
-    <string name="smfs_app_logo_description">App logo</string>
-    <string name="splash_screen_tagline">Everything you need in one place</string>
+    <string name="smfs_app_logo_description">Vending app logo</string>
+    <string name="splash_screen_tagline">Quick essentials from a nearby machine</string>
 
     <!-- onboarding screen -->
-    <string name="page_discover_title">Discover What You Need</string>
-    <string name="page_discover_description">Browse thousands of products across every category and find exactly what you\'re looking for.</string>
+    <string name="page_discover_title">Find a Quick Pick</string>
+    <string name="page_discover_description">Browse snacks, bottled drinks, and hygiene essentials stocked for convenient vending pickup.</string>
 
-    <string name="page_checkout_title">Checkout Made Simple</string>
-    <string name="page_checkout_description">Secure payments and a fast, hassle-free checkout every time you shop.</string>
+    <string name="page_checkout_title">Pay in a Few Taps</string>
+    <string name="page_checkout_description">Confirm your vending selection with a quick, straightforward checkout.</string>
 
-    <string name="page_delivery_title">Fast, Reliable Delivery</string>
-    <string name="page_delivery_description">Track your order in real time and get updates every step of the way.</string>
+    <string name="page_delivery_title">Ready for Pickup</string>
+    <string name="page_delivery_description">Get your order confirmation and collect each item from the selected machine.</string>
 
-    <string name="next_button_title">Next</string>
-    <string name="start_button_title">Start</string>
-    <string name="skip_button_title">Skip</string>
+    <string name="next_button_title">Continue</string>
+    <string name="start_button_title">Shop Now</string>
+    <string name="skip_button_title">Later</string>
 
     <!-- %1$s – button label (Next/Start), %2$d and %3$d – current page number and total number of pages. -->
-    <string name="onboarding_button_progress">%1$s · %2$d/%3$d</string>
+    <string name="onboarding_button_progress">%1$s • %2$d of %3$d</string>
 
     <!-- home screen -->
-    <string name="products_state_empty_primary_text">No products available</string>
-    <string name="home_featured_title">Featured</string>
-    <string name="home_categories_title">Categories</string>
-    <string name="home_products_title">Products</string>
-    <string name="home_products_count">%1$d items</string>
-    <string name="add_to_cart_icon_description">Add to cart</string>
+    <string name="products_state_empty_primary_text">Machine stock unavailable</string>
+    <string name="home_featured_title">Popular Picks</string>
+    <string name="home_categories_title">Vending Aisles</string>
+    <string name="home_products_title">In Stock</string>
+    <string name="home_products_count">%1$d choices</string>
+    <string name="add_to_cart_icon_description">Add to basket</string>
 
     <!-- product categories -->
-    <string name="smfs_category_all">All</string>
+    <string name="smfs_category_all">Everything</string>
+    <string name="product_category_savory_snacks_title">Savory Snacks</string>
+    <string name="product_category_sweet_treats_title">Sweet Treats</string>
+    <string name="product_category_bottled_water_title">Bottled Water</string>
+    <string name="product_category_bottled_drinks_title">Bottled Drinks</string>
+    <string name="product_category_personal_care_title">Personal Care</string>
 
     <!-- product details screen -->
-    <string name="product_details_state_empty_primary_text">No information available for this product</string>
-    <string name="product_image_description">Product image</string>
-    <string name="button_add_to_cart_label">Add to Cart</string>
-    <string name="product_details_description_title">Description</string>
-    <string name="product_details_snackbar_added_to_cart">Added to cart</string>
+    <string name="product_details_state_empty_primary_text">Item details are currently unavailable</string>
+    <string name="product_image_description">Vending item photo</string>
+    <string name="button_add_to_cart_label">Add to Basket</string>
+    <string name="product_details_description_title">About This Item</string>
+    <string name="product_details_snackbar_added_to_cart">Added to basket</string>
 
     <!-- cart screen -->
-    <string name="cart_state_empty_primary_text">Nothing in your cart yet</string>
-    <string name="button_place_order_label">Place Order • £%1$.2f</string>
-    <string name="increase_quantity_icon_description">Increase quantity</string>
-    <string name="decrease_quantity_icon_description">Decrease quantity</string>
-    <string name="delete_item_icon_description">Delete item</string>
-    <string name="cart_items_count">Items: %1$d</string>
-    <string name="cart_item_quantity_multiplier">%1$s × %2$d</string>
-    <string name="cart_summary_subtotal_label">Subtotal</string>
-    <string name="cart_summary_delivery_label">Delivery</string>
-    <string name="cart_summary_delivery_free">Free</string>
-    <string name="cart_summary_total_label">Total</string>
+    <string name="cart_state_empty_primary_text">Your vending basket is empty</string>
+    <string name="button_place_order_label">Reserve Items • £%1$.2f</string>
+    <string name="increase_quantity_icon_description">Add one item</string>
+    <string name="decrease_quantity_icon_description">Remove one item</string>
+    <string name="delete_item_icon_description">Remove selection</string>
+    <string name="cart_items_count">Selected: %1$d</string>
+    <string name="cart_item_quantity_multiplier">%2$d × %1$s</string>
+    <string name="cart_summary_subtotal_label">Item Sum</string>
+    <string name="cart_summary_delivery_label">Pickup Fee</string>
+    <string name="cart_summary_delivery_free">Included</string>
+    <string name="cart_summary_total_label">Amount Due</string>
 
     <!-- orders screen -->
-    <string name="orders_state_empty_primary_text">You have no orders yet</string>
-    <string name="order_number">Order #%1$s</string>
-    <string name="order_customer">Customer: %1$s %2$s</string>
-    <string name="order_customer_email">Email: %1$s</string>
-    <string name="order_date_pattern">dd MMM yyyy, HH:mm</string>
-    <string name="order_status_confirmed">Confirmed</string>
-    <string name="order_total_label">Total</string>
+    <string name="orders_state_empty_primary_text">No vending purchases yet</string>
+    <string name="order_number">Pickup #%1$s</string>
+    <string name="order_customer">Reserved for: %1$s %2$s</string>
+    <string name="order_customer_email">Receipt: %1$s</string>
+    <string name="order_date_pattern">d MMM yyyy • HH:mm</string>
+    <string name="order_status_confirmed">Ready</string>
+    <string name="order_total_label">Paid</string>
 
     <!-- checkout screen -->
-    <string name="checkout_headline">Almost there</string>
-    <string name="checkout_invitation">Leave your name and email — we\'ll confirm the order and keep you posted on delivery.</string>
-    <string name="checkout_text_field_first_name">First Name</string>
-    <string name="checkout_text_field_last_name">Last Name</string>
-    <string name="checkout_text_field_email">Email</string>
-    <string name="checkout_email_supporting_text">The order confirmation goes to this address</string>
-    <string name="checkout_email_error_text">Enter a valid email, for example name@example.com</string>
-    <string name="button_confirm_order_label">Confirm Order</string>
+    <string name="checkout_headline">Confirm pickup</string>
+    <string name="checkout_invitation">Add your name and email so we can send the vending pickup confirmation.</string>
+    <string name="checkout_text_field_first_name">Given Name</string>
+    <string name="checkout_text_field_last_name">Family Name</string>
+    <string name="checkout_text_field_email">Email Address</string>
+    <string name="checkout_email_supporting_text">Your pickup receipt will be sent here</string>
+    <string name="checkout_email_error_text">Use a valid address, such as name@example.com</string>
+    <string name="button_confirm_order_label">Confirm Pickup</string>
 
     <!-- checkout dialog -->
-    <string name="checkout_dialog_title">Thank You for Your Order!</string>
-    <string name="checkout_success_message">Your order has been successfully placed. Please hold on; our team will contact you shortly.</string>
-    <string name="checkout_dialog_confirm">Done</string>
+    <string name="checkout_dialog_title">Pickup Confirmed!</string>
+    <string name="checkout_success_message">Your items are reserved successfully. Check your email for pickup details and machine information.</string>
+    <string name="checkout_dialog_confirm">Got It</string>
 
     <!-- settings screen -->
-    <string name="settings_screen_app_label">Application</string>
-    <string name="settings_screen_version_label">Version</string>
+    <string name="settings_screen_app_label">Vending App</string>
+    <string name="settings_screen_version_label">Release</string>
     <string name="smfs_app_version">1.0.0</string>
 
-    <string name="settings_screen_company_label">Company</string>
+    <string name="settings_screen_company_label">Provider</string>
     <string name="smfs_company_name">AVXUK LTD</string>
 
-    <string name="settings_screen_customer_support_label">Customer Support</string>
+    <string name="settings_screen_customer_support_label">Pickup Help</string>
     <string name="smfs_customer_support_link">https://avxuk.surf</string>
 
     <!-- clear cart dialog -->
-    <string name="clear_cart_dialog_title">Clear cart?</string>
-    <string name="clear_card_dialog_text">Are you sure you want to remove all items from your cart?</string>
-    <string name="button_confirm_clear_cart">Confirm</string>
-    <string name="button_cancel_clear_cart">Cancel</string>
+    <string name="clear_cart_dialog_title">Empty basket?</string>
+    <string name="clear_card_dialog_text">Remove every vending item from your current basket?</string>
+    <string name="button_confirm_clear_cart">Remove All</string>
+    <string name="button_cancel_clear_cart">Keep Items</string>
 </resources>
